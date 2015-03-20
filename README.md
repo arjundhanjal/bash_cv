@@ -1,6 +1,6 @@
 # cv.sh
 
-This script is quite simple and quite personal, but is really quite easy to modify for your own needs. It is designed to automate the process of uploading updated résumé PDF files to my webserver and then update the symlink that points to the most recent version.
+This script is quite simple and personal, but is really quite easy to modify for your own needs. It is designed to automate the process of uploading updated résumé PDF files to my webserver and then update the symlink that points to the most recent version.
 
 ## The process
 
