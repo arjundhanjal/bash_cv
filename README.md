@@ -24,6 +24,4 @@ Second, I authenticate through SSH using public-key authentication, so there's n
 
 Because I have all of my old résumés stored on the webserver as well, I've set the permissions of the containing folder to `751`: this means that everybody can execute files within the folder, but there's no chance of a user accidentally stumbling upon the folder and perusing my old résumé files.
 
-## Other notes
-
 The symlink ensures that I can post, embed, and share one link and keep the file pointed to it current.
