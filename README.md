@@ -26,4 +26,4 @@ Because I have all of my old résumés stored on the webserver as well, I've set
 
 ## Other notes
 
-This is not a very complex script. It's just meant to make my own life a little more automated. The symlink ensures that I can post, embed, and share one link and keep the file current.
+The symlink ensures that I can post, embed, and share one link and keep the file pointed to it current.
