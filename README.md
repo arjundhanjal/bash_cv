@@ -16,6 +16,14 @@ This script is quite simple and personal, but is really quite easy to modify for
 
    Then, over SSH, I have to execute two commands. Due a webserver limitation, I have to `cd` into the the appropriate directory before I can update the symlink, so the first command executed changes to the correct directory. Immediately after, the script executes `ln -fs` to forcibly update the symlink. If I don't use the `-f` parameter, the command errors out as we are simply updating an existing file, not creating a new one entirely.
 
+## The backend
+
+This script relies on a few preconfigured elements to work properly. First of all, I have to save all of my résumé files in the same local directory and ensure that they follow a naming convention. In my case, I chose `AD-CV_v${vnum}.pdf`.
+
+Second, I authenticate through SSH using public-key authentication, so there's no fiddling with passwords once I have entered the version number I wish to upload. This makes the process slightly quicker.
+
+Because I have all of my old résumés stored on the webserver as well, I've set the permissions of the containing folder to `751`: this means that everybody can execute files within the folder, but there's no chance of a user accidentally stumbling upon the folder and perusing my old résumé files.
+
 ## Other notes
 
-This is not a very complex script. It's just meant to make my own life a little more automated.
+This is not a very complex script. It's just meant to make my own life a little more automated. The symlink ensures that I can post, embed, and share one link and keep the file current.
