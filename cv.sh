@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Copyright (c) 2015  Arjun Dhanjal
+
 #source $(dirname $0)/colors.sh
 FGRED=`echo "\033[31m"`
 FGGRN=`echo "\033[32m"`
