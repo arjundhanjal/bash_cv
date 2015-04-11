@@ -18,7 +18,7 @@ This script is designed to automate the process of uploading updated résumé PD
 
 ## The backend
 
-This script relies on a few preconfigured elements to work properly. First of all, I have to save all of my résumé files in the same local directory and ensure that they follow a naming convention. In my case, I chose `AD-CV_v${vnum}.pdf`.
+This script relies on a few preconfigured elements to work properly. First of all, I have to save all of my résumé files in the same local directory and ensure that they follow a naming convention. In my case, I chose `AD-resume_v${vnum}.pdf`.
 
 Second, I authenticate through SSH using public-key authentication, so there's no fiddling with passwords once I have entered the version number I wish to upload. This makes the process slightly quicker.
 
